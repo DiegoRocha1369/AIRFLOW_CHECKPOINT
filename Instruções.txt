@@ -21,8 +21,10 @@ Abrir o cmd ou o PowerShell no diretório onde estão os arquivos
 RODE TODOS ESTES COMANDOS, UM APÓS O TERMINO DO OUTRO
 (Atenção, não feche o cmd ou PowerShell)
 
+Depois de rodar aguarde 5 minutos para começar a PARTE 2
+
 PARTE 2:
-Abra este link no navegador: http://localhost:8080/home ( usuario: airflow, senha: aiflow)
+Abra este link no navegador: http://localhost:8080/home (usuario: airflow, senha: airflow)
 
 A DAG estará na página inicial, em "Actions" na interface da página inicial
 Clique em "Trigger DAG" (o botão de play)
@@ -34,14 +36,14 @@ Para inicializar o MongoDB com o usuário e senha:
 docker exec -it airflow_checkpoint-mongo-1 mongosh -u EnergyGuide -p Backcast --authenticationDatabase admin
 
 Verificação dos dados:
-- Para verificar os bancos de dados existentes
+- Para verificar os bancos de dados existentes:
 show dbs    
 
-- Para entrar no banco de dados
+- Para entrar no banco de dados:
 use checkpointThiago
 
-- Mostrar as coleções existentes
+- Mostrar as coleções existentes:
 show collections
 
-- Mostrar os dados da coleção "clientes"
+- Mostrar os dados da coleção "clientes":
 db.clientes.find().pretty()

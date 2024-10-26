@@ -1,0 +1,27 @@
+[2024-10-25T20:05:41.255+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-25T20:05:41.274+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: inserir_dados_mongodb.insert_data_to_mongo manual__2024-10-25T20:05:31.912759+00:00 [queued]>
+[2024-10-25T20:05:41.284+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: inserir_dados_mongodb.insert_data_to_mongo manual__2024-10-25T20:05:31.912759+00:00 [queued]>
+[2024-10-25T20:05:41.285+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-25T20:05:41.305+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): insert_data_to_mongo> on 2024-10-25 20:05:31.912759+00:00
+[2024-10-25T20:05:41.313+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=803) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-25T20:05:41.314+0000] {standard_task_runner.py:72} INFO - Started process 805 to run task
+[2024-10-25T20:05:41.315+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'inserir_dados_mongodb', 'insert_data_to_mongo', 'manual__2024-10-25T20:05:31.912759+00:00', '--job-id', '54', '--raw', '--subdir', 'DAGS_FOLDER/dag_save_mongodb_v3.py', '--cfg-path', '/tmp/tmp0jfbhml5']
+[2024-10-25T20:05:41.320+0000] {standard_task_runner.py:105} INFO - Job 54: Subtask insert_data_to_mongo
+[2024-10-25T20:05:41.386+0000] {task_command.py:467} INFO - Running <TaskInstance: inserir_dados_mongodb.insert_data_to_mongo manual__2024-10-25T20:05:31.912759+00:00 [running]> on host f31c2b905d22
+[2024-10-25T20:05:41.488+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='user' AIRFLOW_CTX_DAG_ID='inserir_dados_mongodb' AIRFLOW_CTX_TASK_ID='insert_data_to_mongo' AIRFLOW_CTX_EXECUTION_DATE='2024-10-25T20:05:31.912759+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-25T20:05:31.912759+00:00'
+[2024-10-25T20:05:41.490+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-25T20:05:41.568+0000] {logging_mixin.py:190} INFO - Registro com id 1 já existe. Não será inserido.
+[2024-10-25T20:05:41.570+0000] {logging_mixin.py:190} INFO - Registro com id 2 já existe. Não será inserido.
+[2024-10-25T20:05:41.571+0000] {logging_mixin.py:190} INFO - Registro com id 3 já existe. Não será inserido.
+[2024-10-25T20:05:41.573+0000] {logging_mixin.py:190} INFO - Registro com id 4 já existe. Não será inserido.
+[2024-10-25T20:05:41.575+0000] {logging_mixin.py:190} INFO - Registro com id 5 já existe. Não será inserido.
+[2024-10-25T20:05:41.576+0000] {logging_mixin.py:190} INFO - Nenhum novo registro para inserir.
+[2024-10-25T20:05:41.578+0000] {logging_mixin.py:190} INFO - Total de documentos na coleção 'clientes': 5
+[2024-10-25T20:05:41.579+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-10-25T20:05:41.591+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-25T20:05:41.592+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=inserir_dados_mongodb, task_id=insert_data_to_mongo, run_id=manual__2024-10-25T20:05:31.912759+00:00, execution_date=20241025T200531, start_date=20241025T200541, end_date=20241025T200541
+[2024-10-25T20:05:41.656+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-25T20:05:41.676+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-25T20:05:41.679+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

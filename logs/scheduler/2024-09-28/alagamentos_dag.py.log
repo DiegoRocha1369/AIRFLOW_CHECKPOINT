@@ -1,0 +1,596 @@
+[2024-09-28T19:52:47.249+0000] {processor.py:186} INFO - Started process (PID=57) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:52:47.251+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T19:52:47.253+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:52:47.253+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:52:47.288+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:52:47.275+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 2, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/__init__.py)
+[2024-09-28T19:52:47.291+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:52:47.303+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.057 seconds
+[2024-09-28T19:53:17.771+0000] {processor.py:186} INFO - Started process (PID=122) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:53:17.772+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T19:53:17.773+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:53:17.773+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:53:17.790+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:53:17.786+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 2, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/__init__.py)
+[2024-09-28T19:53:17.792+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:53:17.804+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.037 seconds
+[2024-09-28T19:53:48.758+0000] {processor.py:186} INFO - Started process (PID=193) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:53:48.759+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T19:53:48.763+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:53:48.762+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:53:48.780+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:53:48.776+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 2, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/__init__.py)
+[2024-09-28T19:53:48.782+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:53:48.794+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.040 seconds
+[2024-09-28T19:54:18.996+0000] {processor.py:186} INFO - Started process (PID=258) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:54:19.002+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T19:54:19.019+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:54:19.018+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:54:19.136+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:54:19.126+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 2, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/__init__.py)
+[2024-09-28T19:54:19.139+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:54:19.154+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.163 seconds
+[2024-09-28T19:54:49.425+0000] {processor.py:186} INFO - Started process (PID=323) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:54:49.426+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T19:54:49.428+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:54:49.427+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:54:49.437+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:54:49.434+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 2, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/__init__.py)
+[2024-09-28T19:54:49.439+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:54:49.451+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.031 seconds
+[2024-09-28T19:55:19.587+0000] {processor.py:186} INFO - Started process (PID=388) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:55:19.588+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T19:55:19.590+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:55:19.589+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:55:19.601+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:55:19.597+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 2, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/__init__.py)
+[2024-09-28T19:55:19.603+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:55:19.615+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.032 seconds
+[2024-09-28T19:55:46.099+0000] {processor.py:186} INFO - Started process (PID=448) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:55:46.102+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T19:55:46.104+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:55:46.104+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:55:46.309+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:55:46.305+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T19:55:46.310+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:55:46.322+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.227 seconds
+[2024-09-28T19:56:16.458+0000] {processor.py:186} INFO - Started process (PID=513) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:56:16.459+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T19:56:16.460+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:56:16.460+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:56:16.707+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:56:16.702+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T19:56:16.722+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:56:16.736+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.282 seconds
+[2024-09-28T19:56:46.815+0000] {processor.py:186} INFO - Started process (PID=578) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:56:46.816+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T19:56:46.817+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:56:46.817+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:56:46.899+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:56:46.895+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T19:56:46.900+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:56:46.913+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.102 seconds
+[2024-09-28T19:57:17.248+0000] {processor.py:186} INFO - Started process (PID=643) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:57:17.249+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T19:57:17.251+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:57:17.251+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:57:17.322+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:57:17.319+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T19:57:17.323+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:57:17.336+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.092 seconds
+[2024-09-28T19:57:47.490+0000] {processor.py:186} INFO - Started process (PID=708) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:57:47.490+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T19:57:47.492+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:57:47.492+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:57:47.562+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:57:47.558+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T19:57:47.563+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:57:47.574+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.088 seconds
+[2024-09-28T19:58:18.382+0000] {processor.py:186} INFO - Started process (PID=779) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:58:18.383+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T19:58:18.385+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:58:18.385+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:58:18.463+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:58:18.454+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T19:58:18.465+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:58:18.476+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.097 seconds
+[2024-09-28T19:58:49.454+0000] {processor.py:186} INFO - Started process (PID=844) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:58:49.455+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T19:58:49.456+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:58:49.456+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:58:49.529+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:58:49.524+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T19:58:49.530+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:58:49.543+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.093 seconds
+[2024-09-28T19:59:19.901+0000] {processor.py:186} INFO - Started process (PID=909) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:59:19.902+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T19:59:19.904+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:59:19.904+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:59:19.978+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:59:19.975+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T19:59:19.979+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:59:19.991+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.094 seconds
+[2024-09-28T19:59:50.142+0000] {processor.py:186} INFO - Started process (PID=974) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:59:50.143+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T19:59:50.145+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:59:50.145+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:59:50.230+0000] {logging_mixin.py:190} INFO - [2024-09-28T19:59:50.225+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T19:59:50.231+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T19:59:50.241+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.103 seconds
+[2024-09-28T20:00:20.628+0000] {processor.py:186} INFO - Started process (PID=1039) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:00:20.629+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:00:20.632+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:00:20.631+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:00:20.726+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:00:20.720+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T20:00:20.728+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:00:20.750+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.128 seconds
+[2024-09-28T20:05:07.632+0000] {processor.py:186} INFO - Started process (PID=55) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:05:07.633+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:05:07.635+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:05:07.634+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:05:07.755+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:05:07.750+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T20:05:07.757+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:05:07.768+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.140 seconds
+[2024-09-28T20:05:38.397+0000] {processor.py:186} INFO - Started process (PID=120) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:05:38.398+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:05:38.400+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:05:38.400+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:05:38.473+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:05:38.469+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T20:05:38.474+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:05:38.485+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.095 seconds
+[2024-09-28T20:06:08.857+0000] {processor.py:186} INFO - Started process (PID=191) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:06:08.858+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:06:08.860+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:06:08.859+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:06:08.927+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:06:08.924+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T20:06:08.928+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:06:08.938+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.085 seconds
+[2024-09-28T20:06:39.407+0000] {processor.py:186} INFO - Started process (PID=257) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:06:39.407+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:06:39.409+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:06:39.409+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:06:39.476+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:06:39.474+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T20:06:39.478+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:06:39.488+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.085 seconds
+[2024-09-28T20:07:09.631+0000] {processor.py:186} INFO - Started process (PID=322) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:07:09.632+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:07:09.633+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:07:09.633+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:07:09.698+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:07:09.695+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T20:07:09.699+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:07:09.709+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.082 seconds
+[2024-09-28T20:07:40.454+0000] {processor.py:186} INFO - Started process (PID=387) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:07:40.455+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:07:40.457+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:07:40.457+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:07:40.530+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:07:40.526+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T20:07:40.531+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:07:40.543+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.093 seconds
+[2024-09-28T20:08:10.714+0000] {processor.py:186} INFO - Started process (PID=453) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:08:10.715+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:08:10.717+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:08:10.717+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:08:10.827+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:08:10.797+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T20:08:10.858+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:08:10.870+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.160 seconds
+[2024-09-28T20:08:41.151+0000] {processor.py:186} INFO - Started process (PID=519) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:08:41.160+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:08:41.171+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:08:41.171+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:08:41.378+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:08:41.372+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T20:08:41.380+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:08:41.391+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.244 seconds
+[2024-09-28T20:09:11.615+0000] {processor.py:186} INFO - Started process (PID=583) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:09:11.616+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:09:11.618+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:09:11.618+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:09:11.729+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:09:11.720+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T20:09:11.731+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:09:11.745+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.134 seconds
+[2024-09-28T20:09:42.189+0000] {processor.py:186} INFO - Started process (PID=648) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:09:42.190+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:09:42.191+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:09:42.191+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:09:42.286+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:09:42.280+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T20:09:42.288+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:09:42.300+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.115 seconds
+[2024-09-28T20:10:12.481+0000] {processor.py:186} INFO - Started process (PID=714) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:10:12.482+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:10:12.484+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:10:12.484+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:10:12.567+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:10:12.562+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T20:10:12.569+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:10:12.580+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.103 seconds
+[2024-09-28T20:10:42.759+0000] {processor.py:186} INFO - Started process (PID=780) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:10:42.760+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:10:42.762+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:10:42.762+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:10:42.855+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:10:42.848+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T20:10:42.857+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:10:42.870+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.115 seconds
+[2024-09-28T20:11:12.951+0000] {processor.py:186} INFO - Started process (PID=850) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:11:12.952+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:11:12.954+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:11:12.954+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:11:13.051+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:11:13.048+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T20:11:13.052+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:11:13.071+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.126 seconds
+[2024-09-28T20:11:43.456+0000] {processor.py:186} INFO - Started process (PID=917) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:11:43.457+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:11:43.457+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:11:43.457+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:11:43.531+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:11:43.527+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T20:11:43.532+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:11:43.543+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.093 seconds
+[2024-09-28T20:12:13.733+0000] {processor.py:186} INFO - Started process (PID=983) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:12:13.734+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:12:13.735+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:12:13.735+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:12:13.805+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:12:13.802+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T20:12:13.806+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:12:13.816+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.087 seconds
+[2024-09-28T20:12:43.979+0000] {processor.py:186} INFO - Started process (PID=1049) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:12:43.979+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:12:43.981+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:12:43.981+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:12:44.062+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:12:44.059+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T20:12:44.064+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:12:44.075+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.100 seconds
+[2024-09-28T20:13:14.131+0000] {processor.py:186} INFO - Started process (PID=1115) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:13:14.132+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:13:14.133+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:13:14.133+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:13:14.210+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:13:14.206+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T20:13:14.211+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:13:14.222+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.095 seconds
+[2024-09-28T20:13:44.410+0000] {processor.py:186} INFO - Started process (PID=1180) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:13:44.410+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:13:44.412+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:13:44.412+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:13:44.490+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:13:44.483+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T20:13:44.492+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:13:44.506+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.100 seconds
+[2024-09-28T20:14:14.764+0000] {processor.py:186} INFO - Started process (PID=1246) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:14:14.765+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:14:14.767+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:14:14.766+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:14:14.835+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:14:14.832+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T20:14:14.836+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:14:14.846+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.086 seconds
+[2024-09-28T20:14:45.120+0000] {processor.py:186} INFO - Started process (PID=1312) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:14:45.120+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:14:45.122+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:14:45.122+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:14:45.201+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:14:45.196+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T20:14:45.203+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:14:45.216+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.101 seconds
+[2024-09-28T20:15:15.437+0000] {processor.py:186} INFO - Started process (PID=1378) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:15:15.438+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:15:15.439+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:15:15.439+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:15:15.524+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:15:15.519+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T20:15:15.526+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:15:15.539+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.106 seconds
+[2024-09-28T20:15:45.913+0000] {processor.py:186} INFO - Started process (PID=1444) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:15:45.914+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:15:45.917+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:15:45.917+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:15:46.014+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:15:46.010+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/alagamentos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/alagamentos_dag.py", line 7, in <module>
+    import oracledb
+ModuleNotFoundError: No module named 'oracledb'
+[2024-09-28T20:15:46.016+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:15:46.032+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.124 seconds
+[2024-09-28T20:16:28.375+0000] {processor.py:186} INFO - Started process (PID=82) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:16:28.376+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:16:28.377+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:16:28.377+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:16:28.509+0000] {processor.py:925} INFO - DAG(s) 'alagamentos_dag' retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:16:28.587+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:16:28.586+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:alagamentos_dag
+[2024-09-28T20:16:28.595+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:16:28.595+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:alagamentos_dag
+[2024-09-28T20:16:28.600+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:16:28.600+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:alagamentos_dag
+[2024-09-28T20:16:28.605+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:16:28.605+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:alagamentos_dag
+[2024-09-28T20:16:28.611+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:16:28.611+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:alagamentos_dag
+[2024-09-28T20:16:28.617+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:16:28.616+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:alagamentos_dag
+[2024-09-28T20:16:28.622+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:16:28.622+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:alagamentos_dag
+[2024-09-28T20:16:28.623+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:16:28.622+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-09-28T20:16:28.631+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:16:28.631+0000] {dag.py:3262} INFO - Creating ORM DAG for alagamentos_dag
+[2024-09-28T20:16:28.640+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:16:28.640+0000] {dag.py:4180} INFO - Setting next_dagrun for alagamentos_dag to 2024-01-01 00:00:00+00:00, run_after=2024-01-01 01:00:00+00:00
+[2024-09-28T20:16:28.654+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.283 seconds
+[2024-09-28T20:16:59.135+0000] {processor.py:186} INFO - Started process (PID=150) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:16:59.136+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:16:59.137+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:16:59.137+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:16:59.223+0000] {processor.py:925} INFO - DAG(s) 'alagamentos_dag' retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:16:59.238+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:16:59.237+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-09-28T20:16:59.254+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:16:59.254+0000] {dag.py:4180} INFO - Setting next_dagrun for alagamentos_dag to 2024-01-01 00:00:00+00:00, run_after=2024-01-01 01:00:00+00:00
+[2024-09-28T20:16:59.266+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.135 seconds
+[2024-09-28T20:17:29.500+0000] {processor.py:186} INFO - Started process (PID=218) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:17:29.501+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:17:29.503+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:17:29.503+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:17:29.601+0000] {processor.py:925} INFO - DAG(s) 'alagamentos_dag' retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:17:29.615+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:17:29.614+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-09-28T20:17:29.647+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.151 seconds
+[2024-09-28T20:17:59.944+0000] {processor.py:186} INFO - Started process (PID=286) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:17:59.945+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:17:59.947+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:17:59.946+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:18:00.045+0000] {processor.py:925} INFO - DAG(s) 'alagamentos_dag' retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:18:00.060+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:18:00.060+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-09-28T20:18:00.087+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.147 seconds
+[2024-09-28T20:18:30.239+0000] {processor.py:186} INFO - Started process (PID=352) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:18:30.239+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:18:30.240+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:18:30.240+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:18:30.331+0000] {processor.py:925} INFO - DAG(s) 'alagamentos_dag' retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:18:30.343+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:18:30.343+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-09-28T20:18:30.372+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.137 seconds
+[2024-09-28T20:19:00.533+0000] {processor.py:186} INFO - Started process (PID=418) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:19:00.534+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:19:00.535+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:19:00.535+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:19:00.622+0000] {processor.py:925} INFO - DAG(s) 'alagamentos_dag' retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:19:00.635+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:19:00.634+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-09-28T20:19:00.661+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.131 seconds
+[2024-09-28T20:19:30.848+0000] {processor.py:186} INFO - Started process (PID=484) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:19:30.849+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:19:30.849+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:19:30.849+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:19:30.933+0000] {processor.py:925} INFO - DAG(s) 'alagamentos_dag' retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:19:30.948+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:19:30.948+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-09-28T20:19:30.978+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.134 seconds
+[2024-09-28T20:20:01.285+0000] {processor.py:186} INFO - Started process (PID=550) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:20:01.285+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:20:01.286+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:20:01.286+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:20:01.379+0000] {processor.py:925} INFO - DAG(s) 'alagamentos_dag' retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:20:01.393+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:20:01.392+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-09-28T20:20:01.419+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.138 seconds
+[2024-09-28T20:20:31.611+0000] {processor.py:186} INFO - Started process (PID=623) to work on /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:20:31.612+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/alagamentos_dag.py for tasks to queue
+[2024-09-28T20:20:31.613+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:20:31.613+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:20:31.701+0000] {processor.py:925} INFO - DAG(s) 'alagamentos_dag' retrieved from /opt/airflow/dags/alagamentos_dag.py
+[2024-09-28T20:20:31.718+0000] {logging_mixin.py:190} INFO - [2024-09-28T20:20:31.718+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-09-28T20:20:31.747+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/alagamentos_dag.py took 0.140 seconds

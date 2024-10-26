@@ -1,7 +1,8 @@
 Necessário ter o docker desktop 
 (necessário manter o docker desktop aberto no processo)
 
-É necessário que a pasta AIRFLOW_CHECKPOINT esteja dento do D:
+É necessário que a pasta AIRFLOW_CHECKPOINT esteja dento do D: 
+(o nome da pasta deve permanecer o mesmo)
 Ou seja tem que estar assim:
 D:\AIRFLOW_CHECKPOINT
 

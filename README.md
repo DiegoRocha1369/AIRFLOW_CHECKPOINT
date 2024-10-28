@@ -1,6 +1,6 @@
 # AIRFLOW_CHECKPOINT
 
-### Integrantes
+### INTEGRANTES
 
 TURMA: 1TSCPG
 
@@ -8,6 +8,15 @@ TURMA: 1TSCPG
 - RM: 555560 | Diego Augusto Oliveira Rocha
 - RM: 554677 | Giovana Cintra Nogueira
 - RM: 558060 | Tiago Aiala de Lima
+
+### PROJETO
+
+Um pipeline de dados moderno para organizar e armazenar informações de clientes de maneira automatizada e eficiente. A infraestrutura foi construída com Apache Airflow para gerenciar as tarefas de dados e MongoDB para armazenagem flexível.
+
+- Apache Airflow: Orquestra as tarefas, automatizando o fluxo de dados e a integração de fontes distintas, garantindo execução programada e monitoramento.
+- MongoDB: Banco de dados NoSQL que armazena os dados dos clientes de forma flexível, facilitando a consulta e análise, com capacidade para escalar conforme o aumento dos dados.
+- Python: Linguagem usada para programar as tarefas e integrar as ferramentas no Airflow, oferecendo bibliotecas robustas para manipulação de dados.
+- Docker: Facilita a implantação do Airflow e MongoDB, criando um ambiente de execução portátil e padronizado, simplificando a replicação em outros servidores.
 
 ### INSTRUÇÕES
 
